@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEDBE1031E87A5AE0057A40F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDBE1021E87A5AE0057A40F /* main.m */; };
+		EEDBE1061E87A5AE0057A40F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDBE1051E87A5AE0057A40F /* AppDelegate.m */; };
+		EEDBE1091E87A5AE0057A40F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDBE1081E87A5AE0057A40F /* FirstViewController.m */; };
+		EEDBE10C1E87A5AE0057A40F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDBE10B1E87A5AE0057A40F /* SecondViewController.m */; };
+		EEDBE10F1E87A5AE0057A40F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDBE10D1E87A5AE0057A40F /* Main.storyboard */; };
+		EEDBE1111E87A5AE0057A40F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDBE1101E87A5AE0057A40F /* Assets.xcassets */; };
+		EEDBE1141E87A5AE0057A40F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDBE1121E87A5AE0057A40F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEDBE0FE1E87A5AE0057A40F /* JabberUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JabberUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDBE1021E87A5AE0057A40F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEDBE1041E87A5AE0057A40F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEDBE1051E87A5AE0057A40F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEDBE1071E87A5AE0057A40F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		EEDBE1081E87A5AE0057A40F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		EEDBE10A1E87A5AE0057A40F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EEDBE10B1E87A5AE0057A40F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EEDBE10E1E87A5AE0057A40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEDBE1101E87A5AE0057A40F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEDBE1131E87A5AE0057A40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEDBE1151E87A5AE0057A40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEDBE0FB1E87A5AE0057A40F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEDBE0F51E87A5AE0057A40F = {
+			isa = PBXGroup;
+			children = (
+				EEDBE1001E87A5AE0057A40F /* JabberUIDemo */,
+				EEDBE0FF1E87A5AE0057A40F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEDBE0FF1E87A5AE0057A40F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEDBE0FE1E87A5AE0057A40F /* JabberUIDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEDBE1001E87A5AE0057A40F /* JabberUIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EEDBE1041E87A5AE0057A40F /* AppDelegate.h */,
+				EEDBE1051E87A5AE0057A40F /* AppDelegate.m */,
+				EEDBE1071E87A5AE0057A40F /* FirstViewController.h */,
+				EEDBE1081E87A5AE0057A40F /* FirstViewController.m */,
+				EEDBE10A1E87A5AE0057A40F /* SecondViewController.h */,
+				EEDBE10B1E87A5AE0057A40F /* SecondViewController.m */,
+				EEDBE10D1E87A5AE0057A40F /* Main.storyboard */,
+				EEDBE1101E87A5AE0057A40F /* Assets.xcassets */,
+				EEDBE1121E87A5AE0057A40F /* LaunchScreen.storyboard */,
+				EEDBE1151E87A5AE0057A40F /* Info.plist */,
+				EEDBE1011E87A5AE0057A40F /* Supporting Files */,
+			);
+			path = JabberUIDemo;
+			sourceTree = "<group>";
+		};
+		EEDBE1011E87A5AE0057A40F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEDBE1021E87A5AE0057A40F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEDBE0FD1E87A5AE0057A40F /* JabberUIDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEDBE1181E87A5AE0057A40F /* Build configuration list for PBXNativeTarget "JabberUIDemo" */;
+			buildPhases = (
+				EEDBE0FA1E87A5AE0057A40F /* Sources */,
+				EEDBE0FB1E87A5AE0057A40F /* Frameworks */,
+				EEDBE0FC1E87A5AE0057A40F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JabberUIDemo;
+			productName = JabberUIDemo;
+			productReference = EEDBE0FE1E87A5AE0057A40F /* JabberUIDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEDBE0F61E87A5AE0057A40F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = jinren;
+				TargetAttributes = {
+					EEDBE0FD1E87A5AE0057A40F = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 49XFPF8C85;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EEDBE0F91E87A5AE0057A40F /* Build configuration list for PBXProject "JabberUIDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEDBE0F51E87A5AE0057A40F;
+			productRefGroup = EEDBE0FF1E87A5AE0057A40F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEDBE0FD1E87A5AE0057A40F /* JabberUIDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEDBE0FC1E87A5AE0057A40F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDBE1141E87A5AE0057A40F /* LaunchScreen.storyboard in Resources */,
+				EEDBE1111E87A5AE0057A40F /* Assets.xcassets in Resources */,
+				EEDBE10F1E87A5AE0057A40F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEDBE0FA1E87A5AE0057A40F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDBE10C1E87A5AE0057A40F /* SecondViewController.m in Sources */,
+				EEDBE1061E87A5AE0057A40F /* AppDelegate.m in Sources */,
+				EEDBE1091E87A5AE0057A40F /* FirstViewController.m in Sources */,
+				EEDBE1031E87A5AE0057A40F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEDBE10D1E87A5AE0057A40F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEDBE10E1E87A5AE0057A40F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEDBE1121E87A5AE0057A40F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEDBE1131E87A5AE0057A40F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEDBE1161E87A5AE0057A40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEDBE1171E87A5AE0057A40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEDBE1191E87A5AE0057A40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49XFPF8C85;
+				INFOPLIST_FILE = JabberUIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cisco.JabberUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEDBE11A1E87A5AE0057A40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49XFPF8C85;
+				INFOPLIST_FILE = JabberUIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cisco.JabberUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEDBE0F91E87A5AE0057A40F /* Build configuration list for PBXProject "JabberUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDBE1161E87A5AE0057A40F /* Debug */,
+				EEDBE1171E87A5AE0057A40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEDBE1181E87A5AE0057A40F /* Build configuration list for PBXNativeTarget "JabberUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEDBE1191E87A5AE0057A40F /* Debug */,
+				EEDBE11A1E87A5AE0057A40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEDBE0F61E87A5AE0057A40F /* Project object */;
+}
