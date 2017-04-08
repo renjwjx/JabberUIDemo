@@ -14,6 +14,16 @@
 		EEDBE10F1E87A5AE0057A40F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDBE10D1E87A5AE0057A40F /* Main.storyboard */; };
 		EEDBE1111E87A5AE0057A40F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEDBE1101E87A5AE0057A40F /* Assets.xcassets */; };
 		EEDBE1141E87A5AE0057A40F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDBE1121E87A5AE0057A40F /* LaunchScreen.storyboard */; };
+		EEDBE16C1E87AD2C0057A40F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDBE16B1E87AD2C0057A40F /* LoginViewController.m */; };
+		EEDBE16F1E87AD470057A40F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDBE16E1E87AD470057A40F /* MainViewController.m */; };
+		EEDBE1741E87E6DA0057A40F /* MainVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDBE1721E87E6DA0057A40F /* MainVC.storyboard */; };
+		EEDBE1771E87E8BB0057A40F /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDBE1761E87E8BB0057A40F /* FavoriteViewController.m */; };
+		EEFD02911E98A97700D42EC1 /* CallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD02901E98A97700D42EC1 /* CallViewController.m */; };
+		EEFD02941E98A97F00D42EC1 /* RecentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD02931E98A97F00D42EC1 /* RecentViewController.m */; };
+		EEFD03091E98CC5F00D42EC1 /* ContactNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD03081E98CC5F00D42EC1 /* ContactNaviViewController.m */; };
+		EEFD030C1E98D02100D42EC1 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD030B1E98D02100D42EC1 /* ContactsViewController.m */; };
+		EEFD030F1E98E6CD00D42EC1 /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD030E1E98E6CD00D42EC1 /* AddContactViewController.m */; };
+		EEFD03121E98ED2200D42EC1 /* AddFavoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD03111E98ED2200D42EC1 /* AddFavoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +39,25 @@
 		EEDBE1101E87A5AE0057A40F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEDBE1131E87A5AE0057A40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEDBE1151E87A5AE0057A40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEDBE16A1E87AD2C0057A40F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		EEDBE16B1E87AD2C0057A40F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		EEDBE16D1E87AD470057A40F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EEDBE16E1E87AD470057A40F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EEDBE1731E87E6DA0057A40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainVC.storyboard; sourceTree = "<group>"; };
+		EEDBE1751E87E8BB0057A40F /* FavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteViewController.h; sourceTree = "<group>"; };
+		EEDBE1761E87E8BB0057A40F /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
+		EEFD028F1E98A97700D42EC1 /* CallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallViewController.h; sourceTree = "<group>"; };
+		EEFD02901E98A97700D42EC1 /* CallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallViewController.m; sourceTree = "<group>"; };
+		EEFD02921E98A97F00D42EC1 /* RecentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentViewController.h; sourceTree = "<group>"; };
+		EEFD02931E98A97F00D42EC1 /* RecentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentViewController.m; sourceTree = "<group>"; };
+		EEFD03071E98CC5F00D42EC1 /* ContactNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactNaviViewController.h; sourceTree = "<group>"; };
+		EEFD03081E98CC5F00D42EC1 /* ContactNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactNaviViewController.m; sourceTree = "<group>"; };
+		EEFD030A1E98D02100D42EC1 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		EEFD030B1E98D02100D42EC1 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		EEFD030D1E98E6CD00D42EC1 /* AddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactViewController.h; sourceTree = "<group>"; };
+		EEFD030E1E98E6CD00D42EC1 /* AddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContactViewController.m; sourceTree = "<group>"; };
+		EEFD03101E98ED2200D42EC1 /* AddFavoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFavoViewController.h; sourceTree = "<group>"; };
+		EEFD03111E98ED2200D42EC1 /* AddFavoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFavoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +92,30 @@
 			children = (
 				EEDBE1041E87A5AE0057A40F /* AppDelegate.h */,
 				EEDBE1051E87A5AE0057A40F /* AppDelegate.m */,
+				EEFD03071E98CC5F00D42EC1 /* ContactNaviViewController.h */,
+				EEFD03081E98CC5F00D42EC1 /* ContactNaviViewController.m */,
 				EEDBE1071E87A5AE0057A40F /* FirstViewController.h */,
 				EEDBE1081E87A5AE0057A40F /* FirstViewController.m */,
+				EEFD030A1E98D02100D42EC1 /* ContactsViewController.h */,
+				EEFD030B1E98D02100D42EC1 /* ContactsViewController.m */,
+				EEDBE1751E87E8BB0057A40F /* FavoriteViewController.h */,
+				EEDBE1761E87E8BB0057A40F /* FavoriteViewController.m */,
+				EEFD030D1E98E6CD00D42EC1 /* AddContactViewController.h */,
+				EEFD030E1E98E6CD00D42EC1 /* AddContactViewController.m */,
+				EEFD03101E98ED2200D42EC1 /* AddFavoViewController.h */,
+				EEFD03111E98ED2200D42EC1 /* AddFavoViewController.m */,
+				EEDBE10D1E87A5AE0057A40F /* Main.storyboard */,
+				EEDBE1721E87E6DA0057A40F /* MainVC.storyboard */,
 				EEDBE10A1E87A5AE0057A40F /* SecondViewController.h */,
 				EEDBE10B1E87A5AE0057A40F /* SecondViewController.m */,
-				EEDBE10D1E87A5AE0057A40F /* Main.storyboard */,
+				EEFD028F1E98A97700D42EC1 /* CallViewController.h */,
+				EEFD02901E98A97700D42EC1 /* CallViewController.m */,
+				EEFD02921E98A97F00D42EC1 /* RecentViewController.h */,
+				EEFD02931E98A97F00D42EC1 /* RecentViewController.m */,
+				EEDBE16D1E87AD470057A40F /* MainViewController.h */,
+				EEDBE16E1E87AD470057A40F /* MainViewController.m */,
+				EEDBE16A1E87AD2C0057A40F /* LoginViewController.h */,
+				EEDBE16B1E87AD2C0057A40F /* LoginViewController.m */,
 				EEDBE1101E87A5AE0057A40F /* Assets.xcassets */,
 				EEDBE1121E87A5AE0057A40F /* LaunchScreen.storyboard */,
 				EEDBE1151E87A5AE0057A40F /* Info.plist */,
@@ -143,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEDBE1741E87E6DA0057A40F /* MainVC.storyboard in Resources */,
 				EEDBE1141E87A5AE0057A40F /* LaunchScreen.storyboard in Resources */,
 				EEDBE1111E87A5AE0057A40F /* Assets.xcassets in Resources */,
 				EEDBE10F1E87A5AE0057A40F /* Main.storyboard in Resources */,
@@ -156,10 +205,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEFD030C1E98D02100D42EC1 /* ContactsViewController.m in Sources */,
+				EEFD030F1E98E6CD00D42EC1 /* AddContactViewController.m in Sources */,
+				EEDBE1771E87E8BB0057A40F /* FavoriteViewController.m in Sources */,
+				EEFD03091E98CC5F00D42EC1 /* ContactNaviViewController.m in Sources */,
 				EEDBE10C1E87A5AE0057A40F /* SecondViewController.m in Sources */,
+				EEFD02941E98A97F00D42EC1 /* RecentViewController.m in Sources */,
+				EEFD03121E98ED2200D42EC1 /* AddFavoViewController.m in Sources */,
+				EEFD02911E98A97700D42EC1 /* CallViewController.m in Sources */,
+				EEDBE16F1E87AD470057A40F /* MainViewController.m in Sources */,
 				EEDBE1061E87A5AE0057A40F /* AppDelegate.m in Sources */,
 				EEDBE1091E87A5AE0057A40F /* FirstViewController.m in Sources */,
 				EEDBE1031E87A5AE0057A40F /* main.m in Sources */,
+				EEDBE16C1E87AD2C0057A40F /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +238,14 @@
 				EEDBE1131E87A5AE0057A40F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EEDBE1721E87E6DA0057A40F /* MainVC.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEDBE1731E87E6DA0057A40F /* Base */,
+			);
+			name = MainVC.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -318,6 +384,7 @@
 				EEDBE11A1E87A5AE0057A40F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

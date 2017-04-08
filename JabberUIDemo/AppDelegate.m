@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
 
 @interface AppDelegate ()
 
@@ -47,5 +48,14 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (void)jabberLogin
+{
+    NSLog(@"Jabber login ...");
+    UIStoryboard* main = [UIStoryboard storyboardWithName:@"MainVC" bundle:nil];
+//    self.mainVC = [main instantiateViewControllerWithIdentifier:@"MainViewController"];
+    self.mainVC = [main instantiateInitialViewController];
+    self.window.rootViewController = self.mainVC;
+    
+}
 
 @end
