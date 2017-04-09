@@ -24,6 +24,8 @@
 		EEFD030C1E98D02100D42EC1 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD030B1E98D02100D42EC1 /* ContactsViewController.m */; };
 		EEFD030F1E98E6CD00D42EC1 /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD030E1E98E6CD00D42EC1 /* AddContactViewController.m */; };
 		EEFD03121E98ED2200D42EC1 /* AddFavoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD03111E98ED2200D42EC1 /* AddFavoViewController.m */; };
+		EEFD03151E99FEC000D42EC1 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD03141E99FEC000D42EC1 /* ProfileViewController.m */; };
+		EEFD03181E9A134200D42EC1 /* SideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD03171E9A134200D42EC1 /* SideBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,10 @@
 		EEFD030E1E98E6CD00D42EC1 /* AddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContactViewController.m; sourceTree = "<group>"; };
 		EEFD03101E98ED2200D42EC1 /* AddFavoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFavoViewController.h; sourceTree = "<group>"; };
 		EEFD03111E98ED2200D42EC1 /* AddFavoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFavoViewController.m; sourceTree = "<group>"; };
+		EEFD03131E99FEC000D42EC1 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		EEFD03141E99FEC000D42EC1 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		EEFD03161E9A134200D42EC1 /* SideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarViewController.h; sourceTree = "<group>"; };
+		EEFD03171E9A134200D42EC1 /* SideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,12 @@
 				EEFD030E1E98E6CD00D42EC1 /* AddContactViewController.m */,
 				EEFD03101E98ED2200D42EC1 /* AddFavoViewController.h */,
 				EEFD03111E98ED2200D42EC1 /* AddFavoViewController.m */,
+				EEFD03131E99FEC000D42EC1 /* ProfileViewController.h */,
+				EEFD03141E99FEC000D42EC1 /* ProfileViewController.m */,
+				EEDBE16D1E87AD470057A40F /* MainViewController.h */,
+				EEDBE16E1E87AD470057A40F /* MainViewController.m */,
+				EEFD03161E9A134200D42EC1 /* SideBarViewController.h */,
+				EEFD03171E9A134200D42EC1 /* SideBarViewController.m */,
 				EEDBE10D1E87A5AE0057A40F /* Main.storyboard */,
 				EEDBE1721E87E6DA0057A40F /* MainVC.storyboard */,
 				EEDBE10A1E87A5AE0057A40F /* SecondViewController.h */,
@@ -112,8 +124,6 @@
 				EEFD02901E98A97700D42EC1 /* CallViewController.m */,
 				EEFD02921E98A97F00D42EC1 /* RecentViewController.h */,
 				EEFD02931E98A97F00D42EC1 /* RecentViewController.m */,
-				EEDBE16D1E87AD470057A40F /* MainViewController.h */,
-				EEDBE16E1E87AD470057A40F /* MainViewController.m */,
 				EEDBE16A1E87AD2C0057A40F /* LoginViewController.h */,
 				EEDBE16B1E87AD2C0057A40F /* LoginViewController.m */,
 				EEDBE1101E87A5AE0057A40F /* Assets.xcassets */,
@@ -208,7 +218,9 @@
 				EEFD030C1E98D02100D42EC1 /* ContactsViewController.m in Sources */,
 				EEFD030F1E98E6CD00D42EC1 /* AddContactViewController.m in Sources */,
 				EEDBE1771E87E8BB0057A40F /* FavoriteViewController.m in Sources */,
+				EEFD03181E9A134200D42EC1 /* SideBarViewController.m in Sources */,
 				EEFD03091E98CC5F00D42EC1 /* ContactNaviViewController.m in Sources */,
+				EEFD03151E99FEC000D42EC1 /* ProfileViewController.m in Sources */,
 				EEDBE10C1E87A5AE0057A40F /* SecondViewController.m in Sources */,
 				EEFD02941E98A97F00D42EC1 /* RecentViewController.m in Sources */,
 				EEFD03121E98ED2200D42EC1 /* AddFavoViewController.m in Sources */,

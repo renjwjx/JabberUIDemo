@@ -1,19 +1,19 @@
 //
-//  MainViewController.m
+//  SideBarViewController.m
 //  JabberUIDemo
 //
-//  Created by jinren on 3/26/17.
+//  Created by jinren on 4/9/17.
 //  Copyright © 2017 jinren. All rights reserved.
 //
 
+#import "SideBarViewController.h"
 #import "MainViewController.h"
 
-@interface MainViewController ()
+@interface SideBarViewController ()
 
-@property (weak, nonatomic) IBOutlet UIView* sideBarContainer;
 @end
 
-@implementation MainViewController
+@implementation SideBarViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,11 +24,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-- (void)toggleSideBar
-{
-    self.sideBarContainer.hidden = !self.sideBarContainer.hidden;
+- (IBAction)hideSidebar:(id)sender {
+    MainViewController *rootViewController = (MainViewController*)[[[[UIApplication sharedApplication] delegate] window] rootViewController];
+    [rootViewController toggleSideBar];
 }
+
 /*
 #pragma mark - Navigation
 

@@ -9,6 +9,8 @@
 #import "FirstViewController.h"
 #import "AddContactViewController.h"
 #import "AddFavoViewController.h"
+#import "MainViewController.h"
+
 
 @interface FirstViewController ()
 
@@ -16,6 +18,7 @@
 @property (nonatomic, weak) IBOutlet UIView* favoriteContainer;
 //must use strong, avoid to release by system after set to nil
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *addBarButton;
+
 
 @end
 
@@ -85,16 +88,14 @@
     AddContactViewController* addVC = [main instantiateViewControllerWithIdentifier:@"AddContact"];
     addVC.modalPresentationStyle = UIModalPresentationPageSheet;
     addVC.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
-    [self showViewController:addVC sender:self];
+//    [self showViewController:addVC sender:self];
+    [self showDetailViewController:addVC sender:self];
 }
 
 - (void)openAddFavoriteVC
 {
     UIStoryboard* main = [UIStoryboard storyboardWithName:@"MainVC" bundle:nil];
     
-//    AddContactViewController* addVC = [main instantiateViewControllerWithIdentifier:@"AddFavo"];
-//    UINavigationController* navVC = [[UINavigationController alloc] initWithRootViewController:addVC];
-//    navVC.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(pressDone)];
     UINavigationController* navVC = [main instantiateViewControllerWithIdentifier:@"AddFavo"];
     navVC.modalPresentationStyle = UIModalPresentationFormSheet;
     navVC.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
@@ -102,6 +103,11 @@
         NSLog(@"Add Favo competion");
     }];
 
+}
+
+- (IBAction)showSideBar:(id)sender {
+    MainViewController *rootViewController = (MainViewController*)[[[[UIApplication sharedApplication] delegate] window] rootViewController];
+    [rootViewController toggleSideBar];
 }
 
 @end

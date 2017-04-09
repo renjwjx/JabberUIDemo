@@ -1,19 +1,18 @@
 //
-//  MainViewController.m
+//  ContactNaviViewController.m
 //  JabberUIDemo
 //
-//  Created by jinren on 3/26/17.
+//  Created by jinren on 4/8/17.
 //  Copyright © 2017 jinren. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "ContactNaviViewController.h"
 
-@interface MainViewController ()
+@interface ContactNaviViewController ()
 
-@property (weak, nonatomic) IBOutlet UIView* sideBarContainer;
 @end
 
-@implementation MainViewController
+@implementation ContactNaviViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -25,10 +24,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)toggleSideBar
-{
-    self.sideBarContainer.hidden = !self.sideBarContainer.hidden;
-}
 /*
 #pragma mark - Navigation
 
