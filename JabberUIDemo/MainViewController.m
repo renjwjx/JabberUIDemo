@@ -29,6 +29,27 @@
 {
     self.sideBarContainer.hidden = !self.sideBarContainer.hidden;
 }
+
+
+- (void)willTransitionToTraitCollection:(UITraitCollection *)newCollection withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator
+{
+    [super willTransitionToTraitCollection:newCollection withTransitionCoordinator:coordinator];
+    NSLog(@"Main willTransitionToTraitCollection: %@", newCollection);
+}
+
+
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator
+{
+    [super viewWillTransitionToSize:size withTransitionCoordinator:coordinator];
+    NSLog(@"Main viewWillTransitionToSize: %@", NSStringFromCGSize(size));
+}
+
+- (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection
+{
+    [super traitCollectionDidChange:previousTraitCollection];
+    NSLog(@"Main traitCollectionDidChange: %@", previousTraitCollection);
+}
+
 /*
 #pragma mark - Navigation
 

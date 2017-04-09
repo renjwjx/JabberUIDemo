@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0E68301E9A7FAD00B2591E /* ContactSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0E682F1E9A7FAD00B2591E /* ContactSplitViewController.m */; };
 		EEDBE1031E87A5AE0057A40F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDBE1021E87A5AE0057A40F /* main.m */; };
 		EEDBE1061E87A5AE0057A40F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDBE1051E87A5AE0057A40F /* AppDelegate.m */; };
 		EEDBE1091E87A5AE0057A40F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDBE1081E87A5AE0057A40F /* FirstViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE0E682E1E9A7FAD00B2591E /* ContactSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactSplitViewController.h; sourceTree = "<group>"; };
+		EE0E682F1E9A7FAD00B2591E /* ContactSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactSplitViewController.m; sourceTree = "<group>"; };
 		EEDBE0FE1E87A5AE0057A40F /* JabberUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JabberUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEDBE1021E87A5AE0057A40F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEDBE1041E87A5AE0057A40F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 				EEDBE16E1E87AD470057A40F /* MainViewController.m */,
 				EEFD03161E9A134200D42EC1 /* SideBarViewController.h */,
 				EEFD03171E9A134200D42EC1 /* SideBarViewController.m */,
+				EE0E682E1E9A7FAD00B2591E /* ContactSplitViewController.h */,
+				EE0E682F1E9A7FAD00B2591E /* ContactSplitViewController.m */,
 				EEDBE10D1E87A5AE0057A40F /* Main.storyboard */,
 				EEDBE1721E87E6DA0057A40F /* MainVC.storyboard */,
 				EEDBE10A1E87A5AE0057A40F /* SecondViewController.h */,
@@ -229,6 +234,7 @@
 				EEDBE1061E87A5AE0057A40F /* AppDelegate.m in Sources */,
 				EEDBE1091E87A5AE0057A40F /* FirstViewController.m in Sources */,
 				EEDBE1031E87A5AE0057A40F /* main.m in Sources */,
+				EE0E68301E9A7FAD00B2591E /* ContactSplitViewController.m in Sources */,
 				EEDBE16C1E87AD2C0057A40F /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

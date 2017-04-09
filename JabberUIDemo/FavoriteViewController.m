@@ -9,6 +9,7 @@
 #import "FavoriteViewController.h"
 
 @interface FavoriteViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imgAvatar;
 
 @end
 
@@ -24,6 +25,29 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)willTransitionToTraitCollection:(UITraitCollection *)newCollection withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator
+{
+    [super willTransitionToTraitCollection:newCollection withTransitionCoordinator:coordinator];
+    NSLog(@"Favo willTransitionToTraitCollection: %@", newCollection);
+    if (newCollection.verticalSizeClass == UIUserInterfaceSizeClassCompact) {
+        self.imgAvatar.hidden = YES;
+    } else {
+        self.imgAvatar.hidden = NO;
+    }
+
+}
+
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator
+{
+    [super viewWillTransitionToSize:size withTransitionCoordinator:coordinator];
+    NSLog(@"Favo viewWillTransitionToSize: %@", NSStringFromCGSize(size));
+}
+
+- (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection
+{
+    [super traitCollectionDidChange:previousTraitCollection];
+    NSLog(@"Favo traitCollectionDidChange: %@", previousTraitCollection);
+}
 /*
 #pragma mark - Navigation
 
